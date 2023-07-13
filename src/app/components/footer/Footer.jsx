@@ -3,10 +3,12 @@ import styles from "./footer.module.scss";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
+      <Image src="/footer-bg.svg" alt="footer-bg" fill className="bg" style={{position:'absolute', left:"-30%", top:"-20%"}}/>
       <div className={styles.container}>
         <h2>Watch OTT Party</h2>
         <p>

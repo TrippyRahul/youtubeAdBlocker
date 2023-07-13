@@ -25,7 +25,7 @@ const Header = () => {
             <Image
               src="./header-main.svg"
               alt="header-main"
-              layout="fill"
+              fill
               className="image"
             />
           </div>

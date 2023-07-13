@@ -26,7 +26,7 @@ const data = [
 const Functionality = () => {
   return (
     <div className="functionality">
-      <Image src="/func-bg.svg" width={2300} height={1045.26} className="bg"/>
+      <Image src="/func-bg.svg" width={2300} height={1045.26} className="bg" alt="functionality-logo"/>
       <div className="container">
         <h2>AD BLOCK CHROME HAS SO MANY FUNCTIONALITY</h2>
 

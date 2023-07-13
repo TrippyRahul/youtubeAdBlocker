@@ -17,6 +17,7 @@
         flex-direction: column;
 
         h2{
+            z-index: 99;
             width: 100%;
             color: #FFF;
             font-size: 4.4rem;
@@ -32,6 +33,7 @@
             flex-wrap: wrap;
             
             ul{
+                z-index: 99;
                 padding: 3rem;
                 flex: 1;
                 display: flex;

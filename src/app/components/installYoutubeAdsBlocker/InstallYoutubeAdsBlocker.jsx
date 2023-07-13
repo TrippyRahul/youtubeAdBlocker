@@ -5,7 +5,7 @@ import Image from "next/image";
 const InstallYoutubeAdsBlocker = () => {
   return (
     <div className="installYoutubeAdsBlocker">
-      <Image src="/install-bg.svg" width={1817.37} height={1045.26} className="bg"/>
+      <Image src="/install-bg.svg" width={1817.37} height={1045.26} className="bg" alt="install-bg"/>
       <div className="container">
         <h2>
           INSTALL YOUTUBE ADS BLOCKER NOW ON YOUR BROWSER TO ENJOY SEAMLESS

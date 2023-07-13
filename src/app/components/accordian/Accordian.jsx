@@ -43,17 +43,21 @@ const Accordian = () => {
   const toggleAnswer = (questionId) => {
     if (showAnswer === questionId) {
       setShowAnswer(null);
+      console.log("Show");
     } else {
       setShowAnswer(questionId);
+      console.log("er");
     }
   };
 
   return (
-    <div className={styles.frequently}>
-      <Image src="/accor-bg.svg" 
-        width={1817.37} height={1045.26} 
-        style={{position:'absolute', top:"-20%", left:"-10%"}}
-      
+    <div className={styles.accordian} id="accordian">
+      <Image
+        src="/accor-bg.svg"
+        width={1817.37}
+        height={1045.26}
+        style={{ position: "absolute", top: "-20%", left: "-10%" }}
+        alt="accordian-bg"
       />
       <div className={styles.container}>
         <h2>FREQUENTLY ASKED QUESTION</h2>
@@ -64,7 +68,7 @@ const Accordian = () => {
               <div className={styles.question}>
                 <p>{question.ques}</p>
                 <div className={styles.img}>
-                  <img src="./add.svg" alt="add-logo" />
+                  <Image src="/add.svg" width={50} height={50} alt="add-logo"/>
                 </div>
               </div>
               {showAnswer === question.id && (
@@ -76,13 +80,9 @@ const Accordian = () => {
                   <p>{question.ans}</p>
                 </div>
               )}
-
-              {/*
-               */}
             </li>
           ))}
         </ol>
-
         <button>GET TRUE ADBLOCKER NOW</button>
       </div>
     </div>

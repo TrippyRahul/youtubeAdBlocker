@@ -8,7 +8,6 @@ const Use = () => {
       <Image
         src="./use-bg-1.svg"
         alt="youtube-logo"
-        // fill
         width={1817.37}
         height={1045.26}
         className="bg1"
@@ -16,7 +15,6 @@ const Use = () => {
       <Image
         src="./use-bg-2.svg"
         alt="youtube-logo"
-        // fill
         width={1817.37}
         height={1045.26}
         className="bg2"
@@ -47,7 +45,7 @@ const Use = () => {
             <div className="left">
               <h2>HOW DO I BLOCK UNLIMITED ADS ON YOUTUBE?</h2>
               <p>
-                It's a simple and quick process. First, go to your browser and
+                It&apos;s a simple and quick process. First, go to your browser and
                 install youtube ads blocker. Then add this to your chrome
                 extension and start using it. It will fully removes all the
                 unwanted advertisements and will allow you to watch your
@@ -58,7 +56,7 @@ const Use = () => {
               <Image
                 src="./youtube-logo.svg"
                 alt="youtube-logo"
-                layout="fill"
+                fill
                 className="image"
               />
             </div>

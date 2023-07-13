@@ -27,7 +27,7 @@ const data = [
 const HowToAdd = () => {
   return (
     <div className="how-to-add">
-      <Image src="/howToadd-bg.svg" width={2091.29} height={1195.05} className="bg"/>
+      <Image src="/howToadd-bg.svg" width={2091.29} height={1195.05} className="bg" alt="how-to-add-bg"/>
       <div className="top-container">
         <div className="top">
           {data.map((item) => (
@@ -45,7 +45,7 @@ const HowToAdd = () => {
         </div>
 
         <div className="middle">
-          <h2>IT'S A FREE EXTENTION TO BLOCK YOUTUBE ADS FIREFOX AND CHROME</h2>
+          <h2>IT&apos;S A FREE EXTENTION TO BLOCK YOUTUBE ADS FIREFOX AND CHROME</h2>
           <p>
             When you visit a YouTube page on Firefox or in Chrome, the youtube
             ads blocker firefox scans the webpage and identifies the elements
@@ -73,8 +73,8 @@ const HowToAdd = () => {
             <Image src="/firefox.svg" alt="firefox" fill className="img"/>
             <h2>FOR YOUTUBE ADS FIREFOX</h2>
             <p>
-              Adjust the settings by going to the browser's menu, selecting
-              "Add-ons," and customizing the adblolck for youtube firefox
+              Adjust the settings by going to the browser&apos;s menu, selecting
+              &quot;Add-ons,&quot; and customizing the adblolck for youtube firefox
               options.
             </p>
             <p>
@@ -85,7 +85,7 @@ const HowToAdd = () => {
             </p>
           </div>
           <div className="right">
-            <Image src="/chrome.svg" alt="firefox" layout="fill" className="img"/>
+            <Image src="/chrome.svg" alt="firefox" fill className="img"/>
             <h2>FOR YOUTUBE ADS CHROME</h2>
             <p>
               Install the adblocker extension from the free ad blocker chrome
@@ -93,7 +93,7 @@ const HowToAdd = () => {
             </p>
             <p>
               Right-click on the extension icon in the toolbar and choose
-              "Options" or "Settings" to configure its settings.
+              &quot;Options&quot; or &quot;Settings&quot; to configure its settings.
             </p>
             <p>
               By following these steps, you can have control over the extension

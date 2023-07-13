@@ -17,7 +17,7 @@
 
         .top{
             background: rgba(255, 255, 255, 0.04);
-            backdrop-filter: blur(95px);
+            backdrop-filter: blur(9.5rem);
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -25,6 +25,7 @@
             width: 100%;
 
             .card{
+                z-index: 99;
                 flex: 1;
                 padding: 2rem;
                 display: flex;
@@ -35,7 +36,7 @@
 
                 h3{
                     color: #FFF;
-                    font-size: 20px;
+                    font-size: 2rem;
                     font-style: normal;
                     font-weight: 600;
                     line-height: 111%;
@@ -43,20 +44,21 @@
 
                 p{
                     color: #FFF;
-                    font-size: 15px;
+                    font-size: 1.5rem;
                     font-style: normal;
                     line-height: normal;
                 }
             }
 
             &>:nth-child(2){
-                border-left: 1px solid #FFFFFF24;
-                border-right:  1px solid #FFFFFF24;;
+                border-left: .1rem solid #FFFFFF24;
+                border-right:  .1rem solid #FFFFFF24;;
             }
             
         }
 
         .middle{
+            z-index: 99;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -70,7 +72,7 @@
                 flex-shrink: 0;
 
                 color: #FFF;
-                font-size: 32px;
+                font-size: 3.2rem;
                 font-style: normal;
                 font-weight: 600;
                 line-height: 111%;
@@ -79,7 +81,7 @@
             p{
                 width: 50%;
                 color: #FFF;
-                font-size: 15px;
+                font-size: 1.5rem;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -89,6 +91,7 @@
 
     .bottom-container{
         width: 100%;
+        z-index: 99;
 
         .bottom-container-top{
             padding: 4rem;
@@ -101,7 +104,7 @@
                     flex: 1;
                     h3{
                         color: #FFF;
-                        font-size: 32px;
+                        font-size: 3.2rem;
                         font-style: normal;
                         font-weight: 600;
                         line-height: 111%;
@@ -151,7 +154,7 @@
             
             &>*{
                 position: relative;
-                border-top: 1px solid #FFFFFF24;
+                border-top: .1rem solid #FFFFFF24;
                 padding: 4rem;
                 flex: 1;
                 display: flex;
@@ -163,9 +166,6 @@
 
                 height: 100%;
 
-                // >div{
-                //     position: unset !important;
-                // }
 
                 .img {
                     object-fit: contain;
@@ -188,7 +188,7 @@
         
                 p{
                     color: #FFF;
-                    font-size: 15px;
+                    font-size: 1.5rem;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
@@ -201,7 +201,7 @@
            }
     
            &>:first-child{
-            border-right: 1px solid #FFFFFF24;;
+            border-right: .1rem solid #FFFFFF24;;
            }
         }
     

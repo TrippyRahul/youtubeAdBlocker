@@ -7,7 +7,7 @@ const Install = () => {
     <div className="install">
       <div className="container">
         <div className="left">
-          <Image src="/firefox.svg" className="image" layout="fill" />
+          <Image src="/firefox.svg" className="image" fill alt="firefox-logo"/>
         </div>
         <div className="right">
           <h2>HOW TO INSTALL THE AD BLOCKER FIREFOX FEATURE?</h2>
@@ -18,7 +18,7 @@ const Install = () => {
           </p>
           <button>
             {" "}
-            <Image src="/ri_firefox-fill.svg" width={30} height={30} />
+            <Image src="/ri_firefox-fill.svg" width={30} height={30} alt="firefox-logo"/>
             Add to Firefox
           </button>
         </div>

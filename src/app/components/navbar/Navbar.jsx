@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import styles from "./navbar.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,17 +13,22 @@ const Navbar = () => {
         <ul className={styles.links}>
           <li className={styles.logo}>
             <Link href="/">
-              <img src="./navbar-logo.svg" alt="youtube-ad-blocker-logo" />
+              <Image
+                src="./navbar-logo.svg"
+                alt="youtube-ad-blocker-logo"
+                width={96}
+                height={54}
+              />
             </Link>
           </li>
           <li className={styles.link}>
             <Link href="/">YOUTUBE AD BLOCKER</Link>
           </li>
           <li className={styles.link}>
-            <Link href="/">ABOUT YOUTUBE AD BLOCKER</Link>
+            <Link href="/about">ABOUT YOUTUBE AD BLOCKER</Link>
           </li>
           <li className={styles.link}>
-            <Link href="/">FAQ</Link>
+            <Link href="#accordian">FAQ</Link>
           </li>
         </ul>
 
@@ -38,15 +44,25 @@ const Navbar = () => {
 
       {isOpen && (
         <div className={styles.mobile}>
+          <div className={styles.logo}>
+            <Link href="/">
+              <Image
+                src="./navbar-logo.svg"
+                alt="youtube-ad-blocker-logo"
+                width={96}
+                height={54}
+              />
+            </Link>
+          </div>
           <ul className={styles.links}>
             <li className={styles.link}>
-              <Link href="/">YOUTUBE AD BLOCKER</Link>
+              <Link href="/youtube-ad-blocker">YOUTUBE AD BLOCKER</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/">ABOUT YOUTUBE AD BLOCKER</Link>
+              <Link href="/about">ABOUT YOUTUBE AD BLOCKER</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/">FAQ</Link>
+              <Link href="/frequently-asked-questions">FAQ</Link>
             </li>
           </ul>
         </div>

@@ -5,7 +5,7 @@ import Image from "next/image";
 const AboutYoutubeAdBlocker = () => {
   return (
     <div className="aboutYoutubeAdBlocker">
-      {/* <Image src={}/> */}
+       <Image src="/howToadd-bg.svg" width={2091.29} height={1195.05} className="bg" alt="how-to-add"/>
       <div className="container">
         <div className="content">
           <div className="left">
@@ -20,7 +20,7 @@ const AboutYoutubeAdBlocker = () => {
             </p>
             <p>
               This adblock free is easy to use. Just install it and turn it on,
-              and you won't see any more ads while watching YouTube videos. This
+              and you won&apos;t see any more ads while watching YouTube videos. This
               adblock 360 is such a helpful extension to block ads and enjoy no
               ads youtube by blocking youtube unwanted ads. Thus, this ad
               remover or ad killer is the best way to keep you focused on your
@@ -28,7 +28,7 @@ const AboutYoutubeAdBlocker = () => {
             </p>
           </div>
           <div className="right">
-            <Image src="/about.svg" layout="fill" className="image" />
+            <Image src="/about.svg" fill alt="about-logo" className="image" />
           </div>
         </div>
         <button>Install Extention</button>
