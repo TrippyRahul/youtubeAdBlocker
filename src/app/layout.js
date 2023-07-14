@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Youtube Ad Blocker",
   description:
-    "YouTube is a fun website for watching and sharing videos. Ads can be annoying, but you can use an ad-blocker extension to enjoy your favorite content without ads.",
+    "YouTube is a fun website for watching and sharing videos. Ads can be annoying but you can use an adblocker extension to enjoy your favorite content without ads",
 };
 
 export default function RootLayout({ children }) {
