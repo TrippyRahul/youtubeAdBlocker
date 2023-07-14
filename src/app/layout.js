@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content="Youtube Ad Blocker" />
         <meta
           property="og:description"
-          content="YouTube is a fun website for watching and sharing videos. Ads can be annoying, but you can use an adblocker extension to enjoy your favorite content without ads"
+          content="YouTube is a fun website for watching and sharing videos. Ads can be annoying, but you can use an ad blocker extension to enjoy your favorite content without ads"
         />
         <meta
           property="og:image"
