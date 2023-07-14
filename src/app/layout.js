@@ -1,8 +1,9 @@
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Head from "next/head";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Schema from "./Schema";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,45 +13,9 @@ export const metadata = {
     "YouTube is a fun website for watching and sharing videos. Ads can be annoying but you can use an adblocker extension to enjoy your favorite content without ads",
 };
 
-const StructuredData = ({ data }) => {
-  return (
-    <Head>
-      <script
-        key="structured-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-      />
-    </Head>
-  );
-};
+
 
 export default function RootLayout({ children }) {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "TrueAdBlocker",
-    mainEntityOfPage: {
-      "@type": "WebSite",
-      "@id": "https://www.youtubeadblocker.net/",
-    },
-    headline:
-      "YouTube is a fun website for watching and sharing videos. Ads can be annoying but you can use an adblocker extension to enjoy your favorite content without ads",
-    description:
-      "YouTube is a fun website for watching and sharing videos. Ads can be annoying but you can use an adblocker extension to enjoy your favorite content without ads",
-    image: "https://www.youtubeadblocker.net/navbar-logo.svg",
-    author: {
-      "@type": "Organization",
-      name: "TrueAdBlocker",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.youtubeadblocker.net/navbar-logo.svg",
-      },
-    },
-    datePublished: "2023-07-14",
-  };
   return (
     <html lang="en">
       <head>
@@ -85,8 +50,8 @@ export default function RootLayout({ children }) {
           content="https://www.youtubeadblocker.net/navbar-logo.svg"
         />
       </head>
-      <StructuredData data={structuredData} />
       <body className={inter.className}>
+        <Schema/>
         <Header />
         {children}
         <Footer />
