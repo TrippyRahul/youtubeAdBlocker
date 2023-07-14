@@ -8,9 +8,15 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <Image src="/footer-bg.svg" alt="footer-bg" fill className="bg" style={{position:'absolute', left:"-30%", top:"-20%"}}/>
+      <Image
+        src="/footer-bg.svg"
+        alt="footer-bg"
+        fill
+        className="bg"
+        style={{ position: "absolute", left: "-30%", top: "-20%" }}
+      />
       <div className={styles.container}>
-        <h2>Watch OTT Party</h2>
+        <h2>Youtube Ad Blocker</h2>
         <p>
           YouTube is a fun website where you can watch and share all kinds of
           videos. While watching videos, ads show up in between them, just like
@@ -26,11 +32,11 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> HBO Max watch party, Disney Plus
-              watch party, Hulu watch party, amazon watch party, movies on
-              paramount plus, peacock watch party, youtube watch party, viewing
-              party, Netflix share play, movie night streaming, watching room,
-              teleparty extension
+              <span>Popular searches:</span> youtube no ads, chrome youtube
+              adblocker,pop up blocker chrome, adblock fireforx, twitch adblock
+              firefox, adguard ablocker, twitch adblock chrome, adblock
+              extension chrome, ad blocker chrome extension, pop-up ads, ad
+              blocker google chrome and google chrome ad blocker.
             </p>
           </div>
           <ul>
