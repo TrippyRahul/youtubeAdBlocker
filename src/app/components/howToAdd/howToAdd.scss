@@ -115,6 +115,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: flex-end;
+
                     button{
                         position: relative;
                         display: flex;
@@ -224,6 +225,17 @@
             }
            }
         }
+
+        .bottom-container{
+            .bottom-container-top{
+                .top{
+                    gap: 4rem;
+                    .right{
+                        justify-content: flex-start;
+                    }
+                }
+            }
+        }
     }
 }
 @media screen and (max-width: 480px) {
@@ -231,9 +243,20 @@
         .top-container{
            .top{
             flex-direction: column;
+            gap: 4rem;
 
             .card{
                 border: none;
+                padding: 0;
+                align-items: center;
+
+                h3{
+                    text-align: center;
+                }
+
+                p{
+                    text-align: center;
+                }
             }
            }
         }

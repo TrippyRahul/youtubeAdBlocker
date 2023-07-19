@@ -11,6 +11,7 @@ const Header = () => {
         <div className="container">
           <div className="left">
             <h1>SKIP ANNOYING ADS WITH BLOCK YOUTUBE ADS</h1>
+            <h2>It is one of the popular YouTube ad blocker.</h2>
             <p>
               YouTube is a fun website where you can watch and share all kinds
               of videos. While watching videos, ads show up in between them,

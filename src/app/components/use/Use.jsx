@@ -46,7 +46,7 @@ const Use = () => {
               <h2>HOW DO I BLOCK UNLIMITED ADS ON YOUTUBE?</h2>
               <p>
                 It&apos;s a simple and quick process. First, go to your browser and
-                install youtube ads blocker. Then add this to your chrome
+                install <span>youtube ads blocker.</span> Then add this to your chrome
                 extension and start using it. It will fully removes all the
                 unwanted advertisements and will allow you to watch your
                 favorite shows without any disturbance.

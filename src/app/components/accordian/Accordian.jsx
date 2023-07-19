@@ -8,7 +8,7 @@ const questions = [
   {
     id: 1,
     ques: "What are third-party trackers in this best ad blocker chrome?",
-    ans: "Trackers are like tiny pieces of code that gather details about how you use the internet. They can be added by the website you&#39;re currently on or by a completely different website you&#39;ve never visited before. The ones from other websites are known as third-party trackers. These trackers collect information to create a profile of your interests and show you specific advertisements. For example: after looking at a website that sells coffee makers, you start seeing ads for coffee makers everywhere you go online. That is why this extension protects you from these third party trackers. By installing this tool in your browser will give you privacy on your search habits. Enjoy unstoppable streaming in this extension.",
+    ans: "Trackers are like tiny pieces of code that gather details about how you use the internet. They can be added by the website you're currently on or by a completely different website you've never visited before. The ones from other websites are known as third-party trackers. These trackers collect information to create a profile of your interests and show you specific advertisements. For example: after looking at a website that sells coffee makers, you start seeing ads for coffee makers everywhere you go online. That is why this extension protects you from these third party trackers. By installing this tool in your browser will give you privacy on your search habits. Enjoy unstoppable streaming in this extension.",
   },
   {
     id: 2,

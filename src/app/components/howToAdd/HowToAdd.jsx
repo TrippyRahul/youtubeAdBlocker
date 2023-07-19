@@ -7,27 +7,33 @@ const data = [
     id: 1,
     icon: "/icon-park-outline_ad.svg",
     heading: "SAFE MONEY ON YOUR MOBILE DATA EXPENSES BY USING THE EXTETSION",
-    desc: "When you use your mobile data to watch YouTube, it consumes a large amount of data because there are numerous advertisements that appear during the videos. But with the adblocker for Google Chrome, you won't waste any data on advertising. You can enjoy watching your favorite show without any interruptions in adblocker google chrome.",
+    desc: "When you use your mobile data to watch YouTube, it consumes a large amount of data because there are numerous advertisements that appear during the videos. But with the adblocker for Google Chrome, you won't waste any data on advertising. You can enjoy watching your favorite show without any interruptions by using this extension.",
   },
   {
     id: 2,
     icon: "/jam_task-list.svg",
     heading:
       "SPEED UP YOUR BROWSING EXPERIENCE BY USING THE AD BLOCKER CHROME EXTENTION",
-    desc: "Ads and pop-ups not only create disturbance but also slow down your internet connection. If you want to maintain top speed and enjoy faster loading of your favorite websites without unwanted ads, use the adblock plus chrome extension. As, ad blocker chrome extension prevents all the harmful adverts from your browser.",
+    desc: "Ads and pop-ups not only create disturbance but also slow down your internet connection. If you want to maintain top speed and enjoy faster loading of your favorite websites without unwanted ads, use this extension. As this prevents all the harmful adverts from your browser.",
   },
   {
     id: 3,
     icon: "/ant-design_safety-outlined.svg",
-    heading: "BLOCK DANGEROUS WEBSITE WITH ADBLOCK PLUS CHROME",
-    desc: "Don't worry about phishing, malicious websites, and malware anymore. With youtube adblock firefox, you won't accidentally visit dangerous websites as it instantly blocks your access and prevents any potential attacks.",
+    heading: "BLOCK DANGEROUS WEBSITES",
+    desc: "Don't worry about phishing, malicious websites, and malware anymore. With this browser extension, you won&#39;t accidentally visit dangerous websites as it instantly blocks your access and prevents any potential attacks.",
   },
 ];
 
 const HowToAdd = () => {
   return (
     <div className="how-to-add">
-      <Image src="/howToadd-bg.svg" width={2091.29} height={1195.05} className="bg" alt="how-to-add-bg"/>
+      <Image
+        src="/howToadd-bg.svg"
+        width={2091.29}
+        height={1195.05}
+        className="bg"
+        alt="how-to-add-bg"
+      />
       <div className="top-container">
         <div className="top">
           {data.map((item) => (
@@ -45,7 +51,9 @@ const HowToAdd = () => {
         </div>
 
         <div className="middle">
-          <h2>IT&apos;S A FREE EXTENTION TO BLOCK YOUTUBE ADS FIREFOX AND CHROME</h2>
+          <h2>
+            IT&apos;S A FREE EXTENTION TO BLOCK YOUTUBE ADS FIREFOX AND CHROME
+          </h2>
           <p>
             When you visit a YouTube page on Firefox or in Chrome, the youtube
             ads blocker firefox scans the webpage and identifies the elements
@@ -70,34 +78,35 @@ const HowToAdd = () => {
 
         <div className="bottom-container-bottom">
           <div className="left">
-            <Image src="/firefox.svg" alt="firefox" fill className="img"/>
+            <Image src="/firefox.svg" alt="firefox" fill className="img" />
             <h2>FOR YOUTUBE ADS FIREFOX</h2>
             <p>
-              Adjust the settings by going to the browser&apos;s menu, selecting
-              &quot;Add-ons,&quot; and customizing the adblolck for youtube firefox
-              options.
+              Install the extension from the<span> youtube ads firefox </span>
+              Add-ons store.
             </p>
             <p>
-              In this extension, you will get an option that will automatically
-              block ads. You can also customize your favorite showtime
-              experience on<span> Youtube without ads </span> and enjoy
-              uninterrupted entertainment.
+              Adjust the settings by going to the browser&#39;s menu, selecting
+              &quot;Add- ons,&quot; and customizing the{" "}
+              <span>adblolck for youtube firefox</span> options.
             </p>
+            <p>By following these steps, you can ads on your browser.</p>
           </div>
           <div className="right">
-            <Image src="/chrome.svg" alt="firefox" fill className="img"/>
+            <Image src="/chrome.svg" alt="firefox" fill className="img" />
             <h2>FOR YOUTUBE ADS CHROME</h2>
             <p>
-              Install the adblocker extension from the free ad blocker chrome
+              Install the extension from the <span>free ad blocker chrome</span>{" "}
               Web Store.
             </p>
             <p>
               Right-click on the extension icon in the toolbar and choose
-              &quot;Options&quot; or &quot;Settings&quot; to configure its settings.
+              &quot;Options&quot; or &quot;Settings&quot; to configure its
+              settings.
             </p>
             <p>
               By following these steps, you can have control over the extension
-              on both Firefox and Chrome browsers and watch ad free youtube
+              on both Firefox and Chrome browsers and watch{" "}
+              <span>ad free youtube</span>
               movies and series.
             </p>
           </div>

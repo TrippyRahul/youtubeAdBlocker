@@ -32,11 +32,10 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> youtube no ads, chrome youtube
-              adblocker,pop up blocker chrome, adblock fireforx, twitch adblock
-              firefox, adguard ablocker, twitch adblock chrome, adblock
-              extension chrome, ad blocker chrome extension, pop-up ads, ad
-              blocker google chrome and google chrome ad blocker.
+              <span>Popular searches:</span> ad remover, ad killer, youtube ad
+              skipper, ad free youtube,adblock for youtube app, blocking
+              youtube,ad free youtube, adblock for youtube app and ad blocker
+              google chrome.
             </p>
           </div>
           <ul>

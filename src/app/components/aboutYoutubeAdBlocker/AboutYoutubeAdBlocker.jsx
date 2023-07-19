@@ -5,7 +5,13 @@ import Image from "next/image";
 const AboutYoutubeAdBlocker = () => {
   return (
     <div className="aboutYoutubeAdBlocker">
-       <Image src="/howToadd-bg.svg" width={2091.29} height={1195.05} className="bg" alt="how-to-add"/>
+      <Image
+        src="/howToadd-bg.svg"
+        width={2091.29}
+        height={1195.05}
+        className="bg"
+        alt="how-to-add"
+      />
       <div className="container">
         <div className="content">
           <div className="left">
@@ -13,18 +19,23 @@ const AboutYoutubeAdBlocker = () => {
             <p>
               Are you tired of seeing ads while watching videos on YouTube? Say
               goodbye to those interruptions with our special tool called
-              Youtube Ad Blocker. It remove ads from youtube so that you can
-              have a better experience and enjoy your favorite content without
-              ads. So, no more ads at the beginning, in the middle, or as
-              banners on the screen.
+              <span>Youtube Ad Blocker</span>. It{" "}
+              <span>remove ads from youtube</span> so that you can have a better
+              experience and enjoy your favorite content without ads. So, no
+              more ads at the beginning, in the middle, or as banners on the
+              screen. This <span>adblock free </span>is easy to use. Just
+              install it and turn it on, and you won&#39;t see any more ads
+              while watching YouTube videos. This <span>adblock 360 </span>is
+              such a helpful extension to block ads and enjoy no ads youtube by{" "}
+              <span>blocking youtube</span> unwanted ads. Thus, this{" "}
+              <span>ad remover</span> or <span>ad killer</span> is the best way
+              to keep you focused on your favorite content.
             </p>
             <p>
-              This adblock free is easy to use. Just install it and turn it on,
-              and you won&apos;t see any more ads while watching YouTube videos. This
-              adblock 360 is such a helpful extension to block ads and enjoy no
-              ads youtube by blocking youtube unwanted ads. Thus, this ad
-              remover or ad killer is the best way to keep you focused on your
-              favorite content.
+              Youtube adblocker blocks all annoying ads on youtube, hulu,
+              spotify and twitch. But if you want a separate adblocker of these
+              extension then we have true adblocker, hulu adblocker, spotify
+              adblocker and twitch adblocker.
             </p>
           </div>
           <div className="right">

@@ -13,13 +13,13 @@ const data = [
     id: 2,
     icon: "/jam_task-list.svg",
     heading: "BLOCKS TRACKERS WITH THIS EXTENSION",
-    desc: "Browse the internet without being tracked by using adblock which prevents trackers from following you and collecting information about your browsing habits. In adblock extension you can also protect your data and safety download your content.",
+    desc: "Browse the internet without being tracked by using this extension, it prevents trackers from following you and collecting information about your browsing habits. In this extension, you can also protect your data and safety download your content.",
   },
   {
     id: 3,
     icon: "/ant-design_safety-outlined.svg",
     heading: "STAY SAFE FROM MALWARE RISKS BY USING THE EXTENTION",
-    desc: "Browse the internet without being tracked by using adblock which prevents trackers from following you and collecting information about your browsing habits. In adblock extension you can also protect your data and safety download your content.",
+    desc: "Protect your browser from hacking risks caused by websites with viruses by using an adblock extension. You can watch videos without ads using this extension.",
   },
 ];
 

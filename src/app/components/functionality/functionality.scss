@@ -79,3 +79,29 @@
         }
     }
 }
+@media screen and (max-width: 480px) {
+    .functionality{
+        .container{
+            .cards{
+                flex-direction: column;
+                gap: 4rem;
+
+                .card{
+                    border: none;
+                    padding: 0;
+                    align-items: center;
+
+                    h3{
+                        text-align: center;
+                    }
+
+                    p{
+                        text-align: center;
+                    }
+                }
+
+           
+            }
+        }
+    }
+}
