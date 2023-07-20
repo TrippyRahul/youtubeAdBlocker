@@ -35,7 +35,7 @@ const Use = () => {
             <p>
               You can enjoy your favorite program, without giving it a pause
               through this extension. The best part is that you can
-              <span> block Youtube Ads for free. </span> You can watch your
+              <span> block Youtube Ads chrome for free. </span> You can watch your
               favorite content on <span> Youtube without ads. </span>
             </p>
           </div>
@@ -74,12 +74,12 @@ const Use = () => {
                 </p>
               </div>
               <div className="right">
-                <h2>ENJOY THE FREEDOM WITH AD FREE YOUTUBE</h2>
+                <h2>ENJOY THE FREEDOM WITH <span> AD FREE YOUTUBE </span></h2>
                 <p>
-                  Ad free Youtube enhances your YouTube experience by just not
+                 <span> Ad free Youtube </span>enhances your YouTube experience by just not
                   only blocking ads but also reducing page load times,
                   protecting against the malware, adware, and offering the
-                  additional benefits<span> with ad free youtube.</span>
+                  additional benefits with <span> ad free youtube.</span>
                 </p>
               </div>
             </div>

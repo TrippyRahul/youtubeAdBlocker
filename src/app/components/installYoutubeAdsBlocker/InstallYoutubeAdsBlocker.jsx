@@ -14,7 +14,7 @@ const InstallYoutubeAdsBlocker = () => {
       />
       <div className="container">
         <h2>
-          INSTALL <span>YOUTUBE ADS BLOCKER</span> NOW ON YOUR BROWSER TO ENJOY
+          INSTALL <span> YOUTUBE ADS BLOCKER</span> NOW ON YOUR BROWSER TO ENJOY
           SEAMLESS BROWSING EXPERIENCE
         </h2>
 

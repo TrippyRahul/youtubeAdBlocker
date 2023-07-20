@@ -10,11 +10,23 @@ const Install = () => {
           <Image src="/firefox.svg" className="image" fill alt="firefox-logo" />
         </div>
         <div className="right">
-          <h2>HOW TO INSTALL THE <span>AD BLOCKER FIREFOX </span>FEATURE?</h2>
+          <h2>
+            HOW TO INSTALL THE <span>AD BLOCKER FIREFOX </span>FEATURE?
+          </h2>
+
           <p>
-            It is very simple, just go to your browser, download the{" "}
-            <span>youtube adblock firefox </span>browser extension and then
-            install the extension. It will automatically start running.
+            These are the simple steps to download the youtube adblocker firefox
+            browser extension
+          </p>
+          <ul>
+            <li>Go to your browser</li>
+            <li>Search for youtube adblocker</li>
+            <li>Download the extension</li>
+            <li>Add to chrome</li>
+          </ul>
+          <p>
+            After completing these steps, it will automatically start running on
+            your browser.
           </p>
           <button>
             {" "}

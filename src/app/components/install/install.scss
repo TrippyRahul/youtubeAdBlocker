@@ -50,6 +50,18 @@
                 }
             }
 
+            ul{
+                margin-left: 2rem;
+                li{
+                    list-style: disc;
+                    color: #FFF;
+                    font-size: 1.5rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+
             button{
                 cursor: pointer;
                 position: relative;

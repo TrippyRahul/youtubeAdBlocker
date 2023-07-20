@@ -28,7 +28,7 @@ const Functionality = () => {
     <div className="functionality">
       <Image src="/func-bg.svg" width={2300} height={1045.26} className="bg" alt="functionality-logo"/>
       <div className="container">
-        <h2>AD BLOCK CHROME HAS SO MANY FUNCTIONALITY</h2>
+        <h2>AD BLOCKER CHROME HAS SO MANY FUNCTIONALITY</h2>
 
         <div className="cards">
           {data.map((item) => (

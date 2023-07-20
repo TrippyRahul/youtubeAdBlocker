@@ -20,7 +20,7 @@ const AboutYoutubeAdBlocker = () => {
               Are you tired of seeing ads while watching videos on YouTube? Say
               goodbye to those interruptions with our special tool called
               <span>Youtube Ad Blocker</span>. It{" "}
-              <span>remove ads from youtube</span> so that you can have a better
+              <span> remove ads from youtube </span> so that you can have a better
               experience and enjoy your favorite content without ads. So, no
               more ads at the beginning, in the middle, or as banners on the
               screen. This <span>adblock free </span>is easy to use. Just

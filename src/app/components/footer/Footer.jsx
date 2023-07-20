@@ -34,8 +34,8 @@ const Footer = () => {
             <p>
               <span>Popular searches:</span> ad remover, ad killer, youtube ad
               skipper, ad free youtube,adblock for youtube app, blocking
-              youtube,ad free youtube, adblock for youtube app and ad blocker
-              google chrome.
+              youtube,youtube ad blocker for android, ad free youtube, adblock
+              for youtube app and ad blocker google chrome.
             </p>
           </div>
           <ul>

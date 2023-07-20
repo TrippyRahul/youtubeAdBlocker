@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     icon: "/icon-park-outline_ad.svg",
-    heading: "SAFE MONEY ON YOUR MOBILE DATA EXPENSES BY USING THE EXTETSION",
+    heading: "SAFE MONEY ON YOUR MOBILE DATA EXPENSES BY USING THE EXTENSION",
     desc: "When you use your mobile data to watch YouTube, it consumes a large amount of data because there are numerous advertisements that appear during the videos. But with the adblocker for Google Chrome, you won't waste any data on advertising. You can enjoy watching your favorite show without any interruptions by using this extension.",
   },
   {
@@ -52,15 +52,16 @@ const HowToAdd = () => {
 
         <div className="middle">
           <h2>
-            IT&apos;S A FREE EXTENTION TO BLOCK YOUTUBE ADS FIREFOX AND CHROME
+            IT&apos;S A FREE EXTENTION TO <span>BLOCK YOUTUBE ADS FIREFOX</span>{" "}
+            AND CHROME
           </h2>
           <p>
-            When you visit a YouTube page on Firefox or in Chrome, the youtube
-            ads blocker firefox scans the webpage and identifies the elements
-            associated with ads. It then prevents them from loading or
-            displaying on the page. This effectively removes or hides the ads
-            from your view, and lets you enjoy the video content without
-            interruptions.
+            When you visit a YouTube page on Firefox or in Chrome, the{" "}
+            <span> youtube ads blocker firefox </span>scans the webpage and
+            identifies the elements associated with ads. It then prevents them
+            from loading or displaying on the page. This effectively removes or
+            hides the ads from your view, and lets you enjoy the video content
+            without interruptions.
           </p>
         </div>
       </div>
@@ -69,6 +70,10 @@ const HowToAdd = () => {
           <div className="top">
             <div className="left">
               <h3>HOW TO TAKE CONTROL ON YOUTUBE BROWSER EXTENSION</h3>
+              <p>
+                There are various way to take control on your youtube ad blocker
+                chrome extension
+              </p>
             </div>
             <div className="right">
               <button>Install Extention</button>

@@ -76,6 +76,10 @@
                 font-style: normal;
                 font-weight: 600;
                 line-height: 111%;
+
+                span{
+                    color: #EE4545;
+                }
             }
             
             p{
@@ -85,6 +89,10 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
+
+                  span{
+                    color: #EE4545;
+                }
             }
         }
     }
@@ -108,6 +116,19 @@
                         font-style: normal;
                         font-weight: 600;
                         line-height: 111%;
+                    }
+
+                    p{
+                        padding-top: 1rem;
+                        color: #FFF;
+                        font-size: 1.5rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+
+                        span{
+                            color: #EE4545;
+                        }
                     }
                 }
                 .right{
