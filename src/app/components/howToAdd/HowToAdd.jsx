@@ -1,6 +1,7 @@
 import React from "react";
 import "./howToAdd.scss";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const data = [
   {
@@ -76,7 +77,7 @@ const HowToAdd = () => {
               </p>
             </div>
             <div className="right">
-              <button>Install Extention</button>
+              <Button/>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
           watch your favorite content on Youtube without ads.
         </p>
 
-        <button>Install Extension</button>
+        <Button />
 
         <hr className={styles.line} style={{ color: "gray" }} />
 

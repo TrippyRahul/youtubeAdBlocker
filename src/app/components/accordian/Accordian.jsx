@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import styles from "./accordian.module.scss";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const questions = [
   {
@@ -51,7 +52,7 @@ const Accordian = () => {
   };
 
   return (
-    <div className={styles.accordian} id="accordian">
+    <div className={styles.accordian} id="frequently-asked-questions">
       <Image
         src="/accor-bg.svg"
         width={1817.37}
@@ -83,7 +84,7 @@ const Accordian = () => {
             </li>
           ))}
         </ol>
-        <button>GET TRUE ADBLOCKER NOW</button>
+        <Button />
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import "./header.scss";
 import Navbar from "../navbar/Navbar";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
               using it, you can watch your favorite content on{" "}
               <span>Youtube without ads.</span>
             </p>
-            <button>Install Extension</button>
+            <Button/>
           </div>
           <div className="right">
             <Image

@@ -4,16 +4,13 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Schema from "./Schema";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Youtube Ad Blocker",
+  title: "Skip annoying ads with block youtube ads",
   description:
-    "YouTube is a fun website for watching and sharing videos. Ads can be annoying but you can use an adblocker extension to enjoy your favorite content without ads",
+    "Watch and share videos on YouTube without ads using our extension. Enjoy uninterrupted content on the fun website",
 };
-
-
 
 export default function RootLayout({ children }) {
   return (
@@ -24,10 +21,13 @@ export default function RootLayout({ children }) {
 
         <meta property="og:url" content="https://www.youtubeadblocker.net/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Youtube Ad Blocker" />
+        <meta
+          property="og:title"
+          content="Skip annoying ads with block youtube ads"
+        />
         <meta
           property="og:description"
-          content="YouTube is a fun website for watching and sharing videos. Ads can be annoying, but you can use an ad blocker extension to enjoy your favorite content without ads"
+          content="Watch and share videos on YouTube without ads using our extension. Enjoy uninterrupted content on the fun website"
         />
         <meta
           property="og:image"
@@ -40,10 +40,13 @@ export default function RootLayout({ children }) {
           property="twitter:url"
           content="https://www.youtubeadblocker.net/"
         />
-        <meta name="twitter:title" content="Youtube Ad Blocker" />
+        <meta
+          name="twitter:title"
+          content="Skip annoying ads with block youtube ads"
+        />
         <meta
           name="twitter:description"
-          content="YouTube is a fun website for watching and sharing videos. Ads can be annoying, but you can use an adblocker extension to enjoy your favorite content without ads"
+          content="Watch and share videos on YouTube without ads using our extension. Enjoy uninterrupted content on the fun website"
         />
         <meta
           name="twitter:image"
@@ -51,7 +54,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className}>
-        <Schema/>
+        <Schema />
         <Header />
         {children}
         <Footer />

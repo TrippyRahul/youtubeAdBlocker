@@ -25,10 +25,10 @@ const Navbar = () => {
             <Link href="/">YOUTUBE AD BLOCKER</Link>
           </li>
           <li className={styles.link}>
-            <Link href="/about">ABOUT YOUTUBE AD BLOCKER</Link>
+            <Link href="#about">ABOUT YOUTUBE AD BLOCKER</Link>
           </li>
           <li className={styles.link}>
-            <Link href="#accordian">FAQ</Link>
+            <Link href="#frequently-asked-questions">FAQ</Link>
           </li>
         </ul>
 
@@ -56,13 +56,13 @@ const Navbar = () => {
           </div>
           <ul className={styles.links}>
             <li className={styles.link}>
-              <Link href="/youtube-ad-blocker">YOUTUBE AD BLOCKER</Link>
+              <Link href="/">YOUTUBE AD BLOCKER</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/about">ABOUT YOUTUBE AD BLOCKER</Link>
+              <Link href="#about">ABOUT YOUTUBE AD BLOCKER</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/frequently-asked-questions">FAQ</Link>
+              <Link href="#frequently-asked-questions">FAQ</Link>
             </li>
           </ul>
         </div>

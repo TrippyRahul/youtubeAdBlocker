@@ -1,10 +1,11 @@
 import React from "react";
 import "./aboutYoutubeAdBlocker.scss";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const AboutYoutubeAdBlocker = () => {
   return (
-    <div className="aboutYoutubeAdBlocker">
+    <div className="aboutYoutubeAdBlocker" id="about">
       <Image
         src="/howToadd-bg.svg"
         width={2091.29}
@@ -20,9 +21,9 @@ const AboutYoutubeAdBlocker = () => {
               Are you tired of seeing ads while watching videos on YouTube? Say
               goodbye to those interruptions with our special tool called
               <span>Youtube Ad Blocker</span>. It{" "}
-              <span> remove ads from youtube </span> so that you can have a better
-              experience and enjoy your favorite content without ads. So, no
-              more ads at the beginning, in the middle, or as banners on the
+              <span> remove ads from youtube </span> so that you can have a
+              better experience and enjoy your favorite content without ads. So,
+              no more ads at the beginning, in the middle, or as banners on the
               screen. This <span>adblock free </span>is easy to use. Just
               install it and turn it on, and you won&#39;t see any more ads
               while watching YouTube videos. This <span>adblock 360 </span>is
@@ -42,7 +43,7 @@ const AboutYoutubeAdBlocker = () => {
             <Image src="/about.svg" fill alt="about-logo" className="image" />
           </div>
         </div>
-        <button>Install Extention</button>
+        <Button />
       </div>
     </div>
   );
