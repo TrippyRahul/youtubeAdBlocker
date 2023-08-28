@@ -1,8 +1,14 @@
+"use client"
+
 import React from "react";
 import "./install.scss";
 import Image from "next/image";
 
 const Install = () => {
+  const handleButtonClick = () => {
+    const redirectURL = "https://chrome.google.com/webstore/detail/trueadblocker/bfnbbojgkemfejhnedknbidfceobmmek?utm_source=ext_sidebar&hl=en-US";
+    window.open(redirectURL, "_blank");
+  };
   return (
     <div className="install">
       <div className="container">
@@ -28,7 +34,7 @@ const Install = () => {
             After completing these steps, it will automatically start running on
             your browser.
           </p>
-          <button>
+          <button onClick={handleButtonClick}>
             {" "}
             <Image
               src="/ri_firefox-fill.svg"
