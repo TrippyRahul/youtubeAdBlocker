@@ -33,10 +33,14 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> ad remover, ad killer, youtube ad
-              skipper, ad free youtube,adblock for youtube app, blocking
-              youtube,youtube ad blocker for android, ad free youtube, adblock
-              for youtube app and ad blocker google chrome.
+              <span>Popular searches:</span>{" "}
+              <a href="https://www.trueadblocker.net/" target="_blank">
+                trueadblocker{" "}
+              </a>{" "}
+              , ad remover, ad killer, youtube ad skipper, ad free
+              youtube,adblock for youtube app, blocking youtube,youtube ad
+              blocker for android, ad free youtube, adblock for youtube app and
+              ad blocker google chrome.
             </p>
           </div>
           <ul>
