@@ -18,6 +18,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
         <link rel="canonical" href="https://www.youtubeadblocker.net/" />
+        <meta
+          name="google-site-verification"
+          content="FvkWbaSWuNVOfsyULb1G8jhBfgKFadMURrlsNN7zaVU"
+        />
 
         <meta property="og:url" content="https://www.youtubeadblocker.net/" />
         <meta property="og:type" content="website" />
