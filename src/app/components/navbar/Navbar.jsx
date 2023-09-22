@@ -30,6 +30,9 @@ const Navbar = () => {
           <li className={styles.link}>
             <Link href="#frequently-asked-questions">FAQ</Link>
           </li>
+          <li className={styles.link}>
+            <Link href="/support">Support</Link>
+          </li>
         </ul>
 
         <div
@@ -63,6 +66,9 @@ const Navbar = () => {
             </li>
             <li className={styles.link}>
               <Link href="#frequently-asked-questions">FAQ</Link>
+            </li>
+            <li className={styles.link}>
+              <Link href="/support">Support</Link>
             </li>
           </ul>
         </div>
