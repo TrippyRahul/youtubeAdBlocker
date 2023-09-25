@@ -1,14 +1,19 @@
-"use client"
+"use client";
 import React from "react";
 import "./button.scss";
 
 const Button = ({ text, width, bg }) => {
   const handleButtonClick = () => {
-    const redirectURL = "https://chrome.google.com/webstore/detail/trueadblocker/bfnbbojgkemfejhnedknbidfceobmmek?utm_source=ext_sidebar&hl=en-US";
+    const redirectURL =
+      "https://chrome.google.com/webstore/detail/youtube-adblocker/nihjoknbdeopkanoegafjcbbeaidemke?hl=en&authuser=0";
     window.open(redirectURL, "_blank");
   };
   return (
-    <button className="btn" style={{ width: width, background: bg }} onClick={handleButtonClick}>
+    <button
+      className="btn"
+      style={{ width: width, background: bg }}
+      onClick={handleButtonClick}
+    >
       {" "}
       Add to Chrome
       <svg
