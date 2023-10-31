@@ -1,15 +1,8 @@
-"use client";
-
 import React from "react";
 import "./install.scss";
 import Image from "next/image";
 
 const Install = () => {
-  const handleButtonClick = () => {
-    const redirectURL =
-      "https://chrome.google.com/webstore/detail/youtube-adblocker/nihjoknbdeopkanoegafjcbbeaidemke?hl=en&authuser=0";
-    window.open(redirectURL, "_blank");
-  };
   return (
     <div className="install">
       <div className="container">
@@ -35,16 +28,21 @@ const Install = () => {
             After completing these steps, it will automatically start running on
             your browser.
           </p>
-          <button onClick={handleButtonClick}>
-            {" "}
-            <Image
-              src="/ri_firefox-fill.svg"
-              width={30}
-              height={30}
-              alt="firefox-logo"
-            />
-            Add to Firefox
-          </button>
+          <a
+            href="https://chrome.google.com/webstore/detail/youtube-adblocker/nihjoknbdeopkanoegafjcbbeaidemke?hl=en&authuser=0"
+            target="_blank"
+          >
+            <button>
+              {" "}
+              <Image
+                src="/ri_firefox-fill.svg"
+                width={30}
+                height={30}
+                alt="firefox-logo"
+              />
+              Add to Firefox
+            </button>
+          </a>
         </div>
       </div>
     </div>

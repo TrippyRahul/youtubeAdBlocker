@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Schema from "./Schema";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -55,6 +56,18 @@ export default function RootLayout({ children }) {
         <meta
           name="twitter:image"
           content="https://www.youtubeadblocker.net/navbar-logo.svg"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-KDE1M8ZYLN" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KDE1M8ZYLN');
+          `,
+          }}
         />
       </head>
       <body className={inter.className}>
