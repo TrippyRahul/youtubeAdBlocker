@@ -29,6 +29,9 @@ const Navbar = () => {
             <Link href="#about">ABOUT YOUTUBE AD BLOCKER</Link>
           </li>
           <li className={styles.link}>
+            <Link href="/blogs">BLOGS</Link>
+          </li>
+          <li className={styles.link}>
             <Link href="#frequently-asked-questions">FAQ</Link>
           </li>
           <li className={styles.link}>
